@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const PORT = 3000;
 
-const user= express.user();
+const user = express.user();
 
 user.get('/', (req, res) => {
     res.send('eventually this will show all grades');
@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
     res.send('Hello World!')
 })
 app.listen(port, () => {
-    
+
 })
 import axios from 'axios'
 import React, { useEffect, UseState } from 'react'
@@ -74,8 +74,8 @@ async function alertResponse(response) {
     } else {
         alert('The request returned a status other than 200 OK: ' + response.status);
     }
-       
-            fetch (err => console.log(err));
+
+    fetch(err => console.log(err));
 
 } []
 
